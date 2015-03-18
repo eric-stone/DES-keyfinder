@@ -1,0 +1,1 @@
+This program find the seed for a DES encrypted file based on the currrent time, ie if the unix time stamp was used as the seed, it checks the prior timestamp options for a message beginning with a know plaintext, this only works when using the unix timestamp as a sole seed (a bad idea) and using DES (another bad idea)
